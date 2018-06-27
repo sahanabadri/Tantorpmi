@@ -1,0 +1,20 @@
+1. Teacher login
+2. Menu Screen
+3. Pending Tab
+4. Pending Tab Menu
+5. Pending Tab – Top Filters
+6. Pending Test
+7. Students in Selected Assessment
+8. Unmarked Questions 
+9. Scoring Screen
+10. Scored and Marked Up by the Teacher
+11. View Solution Button Displayed
+12. Solutions Pop Up Window
+13. Initial Template Screen
+14. Solutions Pop Up Window
+15. Template Review Screen
+16. Filter Selections Showing the Use Template Option
+17. List of Templates Field Set Visible
+18. Template Review Screen
+
+

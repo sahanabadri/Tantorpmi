@@ -1,0 +1,15 @@
+db.callBackReference.insert({
+	callBackReference_Id : "callBackReference_1",
+	notifyURL : "http://clientApp.example.com/location_notifications/123456",
+	clientCorrelator : "123",
+	zonalTrafficSubscription_Id : "zonalTrafficSubscription_1",
+	zoneStatusSubscription_Id : "zoneStatusSubscription_1"
+})
+
+db.callBackReference.insert({
+	callBackReference_Id : "callBackReference_2",
+	notifyURL : "http://clientApp.example.com/location_notifications/123457",
+	clientCorrelator : "124",
+	zonalTrafficSubscription_Id : "zonalTrafficSubscription_2",
+	zoneStatusSubscription_Id : "zoneStatusSubscription_2"
+})

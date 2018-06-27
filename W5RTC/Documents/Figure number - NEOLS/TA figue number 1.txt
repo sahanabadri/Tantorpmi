@@ -1,0 +1,35 @@
+1. login
+2. home page
+3. classes tab full view
+4. top filters
+5. main graph
+6. tooltip
+7. strands graph
+8. individual trand graph with tooltip 
+9. classes 2nd page graph
+10. classes 2nd tooltip
+11. Student assessment details 
+12. student result right or wrong
+13. question preview
+14. curriculum 1st page
+15. top filters
+16. curriculum main graph
+17. tooltip
+18. curriculum chart
+19. curriculum 2nd page
+20. tooltip for 2nd page
+21. 2nd page chart
+22. curriculum 3rd page
+23. Assessment questions results
+24. question preview
+25. Student details tab
+26. Historical assessment score graph
+27. Strand scores and notes
+28. No question answered
+29. GE - P&A
+30. GE - G&S
+31. GE - N&N
+32. GE - D&P
+33. Camera icon Preview
+34. Question preview
+35. Edit student

@@ -1,0 +1,39 @@
+Project Raptor Separation
+===========================
+
+Teacher App
+------------------
+
+Project Raptor phase 1 - Enhancements   ----> Library
+				Assessments 
+				Calendar
+ 
+Project Raptor phase 2 - Enhancements   ----> Classes
+				Curriculum 
+				Student
+				Groups
+				Question rating
+				Scorecard
+				Whiteboard
+				Tickets
+				Feedback
+
+Project Raptor phase 3 ---->  Templates
+		            Pending
+
+_________________________________________________________________________
+
+Student App
+------------------
+
+Project Raptor phase 1 - Enhancements ----> Agenda
+				History
+_________________________________________________________________________
+
+Principal App
+------------------
+
+Project Raptor phase 2- Enhancements ----> Subjects
+				Administration
+				Calendar
+				Feedback

@@ -1,0 +1,11 @@
+db.s1EnbInfo.insert({
+	s1EnbInfo_Id : "s1EnbInfo_1",
+	ipAddress : "192.0.2.0",
+	tunnelId : "1111"
+})
+
+db.s1EnbInfo.insert({
+	s1EnbInfo_Id : "s1EnbInfo_2",
+	ipAddress : "192.1.2.3",
+	tunnelId : "2222"
+})

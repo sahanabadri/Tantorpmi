@@ -1,0 +1,15 @@
+db.CaReConfSubscription.insert({
+	caRefConfSubs_Id : "caRefConfSubs_1",
+	callbackReference : "http://meAppClient.example.com/rni/v1/notifications/ca_reconf/77777",
+	links_Id : "links_1",
+	filterCriteriaAssoc_Id : "filterCriteriaAssoc_1",
+	expiryDeadline_Id : "expiryDeadline_1"
+})
+
+db.CaReConfSubscription.insert({
+	caRefConfSubs_Id : "caRefConfSubs_2",
+	callbackReference : "http://meAppClient.example.com/rni/v1/notifications/ca_reconf/88888",
+	links_Id : "links_2",
+	filterCriteriaAssoc_Id : "filterCriteriaAssoc_2",
+	expiryDeadline_Id : "expiryDeadline_2"
+})

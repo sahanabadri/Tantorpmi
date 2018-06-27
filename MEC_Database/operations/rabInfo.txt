@@ -1,0 +1,19 @@
+db.rabInfo.insert({
+	rabInfo_Id : "rabInfo_1",
+	appInID : "01",
+	requestId : "01",
+	timeStamp_Id : "timeStamp_1",
+	cellUserInfo_Id : "cellUserInfo_1",
+	ueInfo_Id : "ueInfo_1",
+	erabQosParameters_Id : "erabQosParameter_1"
+})
+
+db.rabInfo.insert({
+	rabInfo_Id : "rabInfo_2",
+	appInID : "01",
+	requestId : "01",
+	timeStamp_Id : "timeStamp_2",
+	cellUserInfo_Id : "cellUserInfo_2",
+	ueInfo_Id : "ueInfo_2",
+	erabQosParameters_Id : "erabQosParameter_2"
+})

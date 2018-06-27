@@ -1,0 +1,32 @@
+db.accessPoint.insert({
+	accessPointId : "001010000000000000000000000000001",
+	connectionType : "Macro",
+	operationStatus : "Serviceable",
+	numberOfUsers : "5",
+	interestRealm : "LA",
+	resourceURL : "http://example.com/exampleAPI/location/v1/zones/zone01/accessPoints/ap001",
+	accessPoint_Id : "accessPoint_1",
+	locationInfo_Id : ""
+})
+
+db.accessPoint.insert({
+	accessPointId : "001010000000000000000000000000010",
+	connectionType : "Macro",
+	operationStatus : "Unserviceable",
+	numberOfUsers : "0",
+	interestRealm : "DC",
+	resourceURL : "http://example.com/exampleAPI/location/v1/zones/zone01/accessPoints/ap002",
+	accessPoint_Id : "accessPoint_2",
+	locationInfo_Id : ""
+})
+
+db.accessPoint.insert({
+	accessPointId : "001010000000000000000000000000011",
+	connectionType : "Macro",
+	operationStatus : "Serviceable",
+	numberOfUsers : "5",
+	interestRealm : "NJ",
+	resourceURL : "http://example.com/exampleAPI/location/v1/zones/zone01/accessPoints/ap003",
+	accessPoint_Id : "accessPoint_2",
+	locationInfo_Id : ""
+})

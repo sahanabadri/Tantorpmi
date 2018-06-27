@@ -1,0 +1,15 @@
+db.tunnelInfo.insert({
+	tunnelInfo_Id : "tunnelInfo_1",
+	tunnelType : "GTP_U",
+	tunnelDstAddress : "",
+	tunnelSrcAddress : "",
+	dstInterface_Id : "dstInterface_1"
+})
+
+db.tunnelInfo.insert({
+	tunnelInfo_Id : "tunnelInfo_2",
+	tunnelType : "GTP_U",
+	tunnelDstAddress : "",
+	tunnelSrcAddress : "",
+	dstInterface_Id : "dstInterface_2"
+})

@@ -1,0 +1,19 @@
+db.zoneInfo.insert({
+	zoneInfo_Id : "zoneInfo_1",
+	zoneId : "zone01",
+	numberOfAccessPoints : "3",
+	numberOfUnserviceableAccessPoints : "1",
+	numberOfUsers : "10",
+	resourceURL : "http://example.com/exampleAPI/location/v1/zones/zone01",
+	zoneList_Id : "zoneList_1"
+})
+
+db.zoneInfo.insert({
+	zoneInfo_Id : "zoneInfo_2",
+	zoneId : "zone01",
+	numberOfAccessPoints : "5",
+	numberOfUnserviceableAccessPoints : "3",
+	numberOfUsers : "15",
+	resourceURL : "http://example.com/exampleAPI/location/v2/zones/zone01",
+	zoneList_Id : "zoneList_2"
+})

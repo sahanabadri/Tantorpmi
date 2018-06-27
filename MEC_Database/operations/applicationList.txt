@@ -1,0 +1,17 @@
+db.applicationList.insert({
+	applicationList_Id : "applicationList_1",
+	associateUeAppId : "string",
+	callbackReference : "string",
+	contextId : "string",
+	appInfo_Id : "appInfo_1",
+	vendorSpecificExt_Id : "vendorSpecificExt_1"
+})
+
+db.applicationList.insert({
+	applicationList_Id : "applicationList_2",
+	associateUeAppId : "string",
+	callbackReference : "string",
+	contextId : "string",
+	appInfo_Id : "appInfo_2",
+	vendorSpecificExt_Id : "vendorSpecificExt_2"
+})

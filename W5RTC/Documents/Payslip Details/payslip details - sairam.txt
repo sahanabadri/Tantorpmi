@@ -1,0 +1,44 @@
+1. Name : chidirala Sairam
+
+2. Father name : chidirala ravi
+
+3. Date of birth : 16th Aug,1992
+
+4. Date of joining : 11th Aug, 2017
+ 
+5. Designation : Senior Software Engineer
+
+6. Bank name : State Bank of Hyderabad (SBH)
+ 
+7. Bank Account number : 62331303791
+
+8. IFSC code : SBHY0020303
+
+9. Pan number : SBHY0020303
+
+10. Aadhar number : 734186223218
+
+11. Voter Id : ZFY0646705
+
+12. Passport number : 
+
+13. official email id : sairam.chidirala@w5rtc.com
+
+14. Mobile number : +91 9676617647
+
+15. Basic Pay : 11,400
+
+16. HRA : 4,560
+
+17. Medical : 1,250
+
+18. Conveyance : 1,600
+
+19. Spl Allowance : 9,490
+
+20. Gross : 28,500
+
+21. Professional Tax : 200
+
+
+

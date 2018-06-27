@@ -1,0 +1,32 @@
+Changes to be made:
+--------------------
+
+Student App:-
+=============
+1. the information on splitting of questions is wrong. talk to Vignesh to understand the difference between the type of questions we are splitting based on more than 20 questions and manipulative and non manipulative.
+	case 1: less than or equal to 20 questions then, the questions will be divided into manipulative 	           and non manipulative.
+	case 2: more than 20 questions then, the questions will be divided into section 1 and section 2. 		           each section will be again divided into manipulative and non manipulative.
+
+2.the conditions for when the test auto submit - from Vignesh
+	case 1: without open response, retest is disabled and the user have answered all the questions, 	          the test gets auto submitted.
+	case 2: with open response and rest is disabled, the test gets auto submitted
+
+3. the open response document refernce is wrong
+
+4. alert message content has to be corrected {"by chance" not}
+
+5. on leaving the test page, should go to the linked clicked by the user not to the agenda page.
+---------------------------------------------------------------------------------------------------------------
+
+Teacher App:-
+=============
+
+1. out of grade:
+ the out of grade of the classes tab in teacher app and the history tab of the student app is same or different???
+
+2.Exit ticket type is mentioned in the document... but it is not there in the website instead of which there is out of grade... which one to follow?
+
+3. The view icon is not to view the question for open response/input type, but to view the answer given by the student.
+4. Out of Grade bars is not excluded, but disabled by default. To view the Out of Grade results the user has to click on the legend to view it. 
+5.  Change all images for better resolution- try to do full screen and then take a screen shot and paste directly for entire module pages. For smaller images, take a capture from paint or something. 
+

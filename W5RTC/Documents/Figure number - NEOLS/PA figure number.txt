@@ -1,0 +1,28 @@
+1. Login 
+2. Home Page
+3. Logout Pop up 
+4. Change Password
+5. Subjects Tab
+6. Course and Grade Filters
+7. Assessment Scores by Subject Graph
+8. Assessment Scores by Subject Graph – Tooltip 
+9. Subjects Field Set
+10. Board Average – Green Line
+11. Class Details Screen
+12. Assessment Scores by  Class Graph
+13. Assessment Scores by Class Graph – Tooltip 
+14. Calendar
+15. Initial view  - Users
+16. Query Result for Users Displayed in Visible Field Set
+17. Selected User Details to Modify
+18. Add New User Field Set Shown Here
+19. Initial View – Classes
+20. Select Class to Edit Field Set
+21. Class Detail Field Set
+22. Add New Class Field Set
+23. Search for Classes field set
+24. Select Class to Modify Enrollment Field Set
+25. Enrollment Detail Field Sets
+26. Feedback Tab
+27. Selection of Feedback Details Field Set
+28. Feedback Text Area 

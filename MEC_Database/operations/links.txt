@@ -1,0 +1,15 @@
+db.links.insert({
+	links_Id : "links_1",
+	self : "/meMp1/example",
+	uris_Id : "uris_1",
+	subscriptions_Id : "",
+	sub_Id : "sub_1"
+})
+
+db.links.insert({
+	links_Id : "links_2",
+	self : "/meMp1/example",
+	uris_Id : "uris_1",
+	subscriptions_Id : "",
+	sub_Id : "sub_1"
+})

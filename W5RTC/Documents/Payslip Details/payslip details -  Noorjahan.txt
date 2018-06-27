@@ -1,0 +1,36 @@
+
+1. Name 		:	NOORJAHAN.N
+
+2. Father name		:	NAGOOR MEERAN.M
+
+3. Date of birth	:	14.06.1996
+
+4. Date of joining	:	05.07.2017
+
+5. Designation		:	Software Development Trainee
+
+6. Bank name		:	Indian Overseas Bank
+
+7. Bank Account number	:	138801000054337
+
+8. IFSC code		:	IOBA0001388
+
+9. Pan number		:	-
+
+10. Aadhar number	:	4726 1640 4500
+
+11. Voter Id		:	-
+
+12. Passport number	:	-
+
+13. official email id	:	noorjahan.meeran@w5rtc.com
+
+14. Mobile number	:	8300638619
+
+15. Basic Pay 		
+16. HRA
+17. Medical
+18. Conveyance
+19. Spl Allowance
+20. Gross
+21. Professional Tax

@@ -1,0 +1,15 @@
+db.filterCriteriaAssoc.insert({
+	filterCriteriaAssoc_Id : "filterCriteriaAssoc_1",
+	appInsId : "app01",
+	cellId : "0x800000B",
+	associate_Id : "associate_1",
+	plmn_Id : "plmn_1"
+})
+
+db.filterCriteriaAssoc.insert({
+	filterCriteriaAssoc_Id : "filterCriteriaAssoc_2",
+	appInsId : "app02",
+	cellId : "0x800000C",
+	associate_Id : "associate_2",
+	plmn_Id : "plmn_2"
+})

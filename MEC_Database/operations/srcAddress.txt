@@ -1,0 +1,13 @@
+db.srcAddress.insert({
+	srcAddress_Id : "srcAddress_1",
+	srcAddress : "192.168.2.0/24",
+	srcPort : "8080",
+	trafficFilter_Id : "trafficFilter_1"
+})
+
+db.srcAddress.insert({
+	srcAddress_Id : "srcAddress_"2,
+	srcAddress : "192.168.3.0/24",
+	srcPort : "8080",
+	trafficFilter_Id : "trafficFilter_2"
+})

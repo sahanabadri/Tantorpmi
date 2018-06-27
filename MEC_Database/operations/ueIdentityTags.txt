@@ -1,0 +1,13 @@
+db.ueIdentityTags.insert({
+	ueIdentityTags_Id : "ueIdentityTags_1",
+	ueIdentityTag : "UeTagA",
+	state : "REGISTERED",
+	ueIdentityTagInfo_Id : "ueIdentityTagInfo_1"
+})
+
+db.ueIdentityTags.insert({
+	ueIdentityTags_Id : "ueIdentityTags_2",
+	ueIdentityTag : "UeTagB",
+	state : "REGISTERED",
+	ueIdentityTagInfo_Id : "ueIdentityTagInfo_2"
+})

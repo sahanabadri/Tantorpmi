@@ -1,0 +1,11 @@
+db.cellUserInfo.insert({
+	cellUserInfo_Id : "cellUserInfo_1",
+	cellID : "0x800000A",
+	ecgi_Id : "ecgi_1"
+})
+
+db.cellUserInfo.insert({
+	cellUserInfo_Id : "cellUserInfo_2",
+	cellID : "0x800000A",
+	ecgi_Id : "ecgi_2"
+})

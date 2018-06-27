@@ -1,0 +1,15 @@
+db.ptpMasters.insert({
+	ptpMasters_Id : "ptpMasters_1",
+	ptpMasterIpAddress : "192.0.2.0",
+	ptpMasterLocalPriority : "1",
+	delayReqMaxRate : "10",
+	timingCaps_Id : "timingCaps_1"
+})
+
+db.ptpMasters.insert({
+	ptpMasters_Id : "ptpMasters_2",
+	ptpMasterIpAddress : "192.20.30.40",
+	ptpMasterLocalPriority : "2",
+	delayReqMaxRate : "12",
+	timingCaps_Id : "timingCaps_2"
+})

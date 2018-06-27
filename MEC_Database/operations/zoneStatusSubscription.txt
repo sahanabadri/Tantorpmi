@@ -1,0 +1,19 @@
+db.zoneStatusSubscription.insert({
+	zoneStatusSubscription_Id : zoneStatusSubscription_1,
+	clientCorrelator : "123",
+	resourceURL : "http://example.com/exampleAPI/location/v1/subscriptions/zonalTraffic/subscription123",
+	zoneId : "zone01",
+	numberOfUsersZoneThreshold : "500",
+	operationStatus : "Serviceable",
+	callBackReference_Id : "callBackReference_1"
+})
+
+db.zoneStatusSubscription.insert({
+	zoneStatusSubscription_Id : "zoneStatusSubscription_2",
+	clientCorrelator : "124",
+	resourceURL : "http://example.com/exampleAPI/location/v1/subscriptions/zonalTraffic/subscription124",
+	zoneId : "zone02",
+	numberOfUsersZoneThreshold : "50",
+	operationStatus : "Serviceable",
+	callBackReference_Id : "callBackReference_2"
+})

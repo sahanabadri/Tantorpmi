@@ -1,0 +1,15 @@
+db.sessionFilter.insert({
+	session_Id : "session_1",
+	sourceIP : "192.168.1.2",
+	destAddress : "192.168.2.100",
+	protocol : "HTTPS",
+	appIns_Id : "appIns_1"
+})
+
+db.sessionFilter.insert({
+	session_Id : "session_2",
+	sourceIP : "192.168.1.2",
+	destAddress : "192.168.2.100",
+	protocol : "HTTPS",
+	appIns_Id : "appIns_2"
+})

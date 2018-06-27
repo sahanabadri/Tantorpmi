@@ -1,0 +1,15 @@
+db.measTaSubcription.insert({
+	measTaSubcription_Id : "measTaSubcription_1",
+	callbackReference : "http://meAppClient.example.com/rni/v1/notifications/ta/77777",
+	links_Id : "links_1",
+	filterCriteria_Id : "filterCriteria_1",
+	expiryDeadline_Id : "expiryDeadline_1"
+})
+
+db.measTaSubcription.insert({
+	measTaSubcription_Id : "measTaSubcription_2",
+	callbackReference : "http://meAppClient.example.com/rni/v1/notifications/ta/77777",
+	links_Id : "links_2",
+	filterCriteria_Id : "filterCriteria_1",
+	expiryDeadline_Id : "expiryDeadline_2"
+})

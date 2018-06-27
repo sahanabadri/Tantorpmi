@@ -1,0 +1,13 @@
+db.accessPointList.insert({
+	accessPointList_Id : "",
+	zoneId : "zone01",
+	resourceURL : "http://example.com/exampleAPI/location/v1/zones/zone01/accessPoints",
+	accessPointDetailsId : ""
+})
+
+db.accessPointList.insert({
+	accessPointList_Id : "",
+	zoneId : "zone01",
+	resourceURL : "http://example.com/exampleAPI/location/v1/zones/zone01/accessPoints",
+	accessPointDetailsId : ""
+})

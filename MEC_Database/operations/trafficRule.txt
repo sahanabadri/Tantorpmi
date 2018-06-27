@@ -1,0 +1,25 @@
+db.trafficRule.insert({
+	tRule_Id : "tRule_1",
+	trafficRuleId : "TrafficRule123",
+	serName : "ExampleService",
+	filterType : "FLOW",
+	priority : "1",
+	action : "FORWARD_DECAPSULATED",
+	state : "ACTIVE",
+	trafficFilter_Id : "trafficFilter_1",
+	dstInterface_Id : "dstInterface_1",
+	appIns_Id : ""
+})
+
+db.trafficRule.insert({
+	tRule_Id : "tRule_2",
+	trafficRuleId : "TrafficRule123",
+	serName : "ServiceExample",
+	filterType : "FLOW",
+	priority : "1",
+	action : "FORWARD_DECAPSULATED",
+	state : "ACTIVE",
+	trafficFilter_Id : "trafficFilter_2",
+	dstInterface_Id : "dstInterface_2",
+	appIns_Id : ""
+})

@@ -1,0 +1,9 @@
+db.reqstType.insert({
+	reqstType_Id : "0",
+	reqstTypeDescription : "APPLICATION_SPECIFIC_BW_ALLOCATION"
+})
+
+db.reqstType.insert({
+	reqstType_Id : "1",
+	reqstTypeDescription : "SESSION_SPECIFIC_BW_ALLOCATION"
+})

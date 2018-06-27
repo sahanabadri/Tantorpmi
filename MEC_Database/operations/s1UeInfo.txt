@@ -1,0 +1,17 @@
+db.s1UeInfo.insert({
+	s1UeInfo_Id : "s1UeInfo_1",
+	cellId : "0x800000A",
+	tempUe_Id : "tempUe_1",
+	associate_Id : "associate_1",
+	ecgi_Id : "ecgi_1",
+	s1BearerInfoDetailed_Id : "s1BearerInfoDetailed_1"
+})
+
+db.s1UeInfo.insert({
+	s1UeInfo_Id : "s1UeInfo_2",
+	cellId : "0x800000A",
+	tempUe_Id : "tempUe_2",
+	associate_Id : "associate_2",
+	ecgi_Id : "ecgi_1",
+	s1BearerInfoDetailed_Id : "s1BearerInfoDetailed_2"
+})

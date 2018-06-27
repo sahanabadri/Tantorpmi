@@ -1,0 +1,21 @@
+db.userInfo.insert({
+	userInfo_Id : "userInfo_1",
+	address : "acr:192.0.2.1",
+	accessPointId : "",
+	zoneId : "zone01",
+	resourceURL : "http://example.com/exampleAPI/location/v1/users/acr%3A192.0.2.1",
+	contextLocationInfo : "",
+	userList_Id : "userList_1",
+	locationInfo_Id : "locationInfo_1"
+})
+
+db.userInfo.insert({
+	userInfo_Id : "userInfo_2",
+	address : "acr:192.0.2.2",
+	accessPointId : "",
+	zoneId : "zone01",
+	resourceURL : "http://example.com/exampleAPI/location/v1/users/acr%3A192.0.2.2",
+	contextLocationInfo : "",
+	userList_Id : "userList_2",
+	locationInfo_Id : "locationInfo_2"
+})

@@ -1,0 +1,21 @@
+1. Name                  - Rabeesh.V
+2. Father name           - Velsamy.S
+3. Date of birth         - 08/01/1995
+4. Date of joining       - 05/07/2017
+5. Designation           - Software developer training
+6. Bank name             - Corporation bank
+7. Bank Account number   - 183000101004487
+8. IFSC code             - CORP0001830
+9. Pan number            - BQAPR3133A
+10. Aadhar number        - 3658 4012 5300
+11. Voter Id             - KJ0828590
+12. Passport number      - R0081726
+13. official email id    - rabeeshcharles@gmail.com
+14. Mobile number        - 8072552563
+15. Basic Pay            -
+16. HRA                  -
+17. Medical              -
+18. Conveyance           -
+19. Spl Allowance        -
+20. Gross                -
+21. Professional Tax     -

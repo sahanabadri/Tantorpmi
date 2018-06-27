@@ -1,0 +1,16 @@
+1. login
+2. home page
+3. Library tab
+4. Question Tags
+5. Text and Images 
+6. Answer - Multiple Choice
+7. Answer – Text Input
+8. Answer – Text Input
+9. Buttons
+10. Assessment tab
+11. Assessment Details
+12. Filter Sections - Selected Questions 
+13. Filter Sections - Random Questions 
+14. Filter Sections - Use Template
+15. Calendar Tab
+16. Calendat tab - Preview

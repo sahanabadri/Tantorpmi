@@ -1,0 +1,11 @@
+db.tempUe.insert({
+	tempUe_Id : "tempUe_1",
+	mme : "0",
+	mtmsi : "1234"
+})
+
+db.tempUe.insert({
+	tempUe_Id : "tempUe_2",
+	mme : "0",
+	mtmsi : "5678"
+})

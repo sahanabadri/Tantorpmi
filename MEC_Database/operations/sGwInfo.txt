@@ -1,0 +1,11 @@
+db.sGwInfo.insert({
+	sGwInfo_Id : "sGwInfo_1",
+	ipAddress : "192.0.2.1",
+	tunnelId : "2222"
+})
+
+db.sGwInfo.insert({
+	sGwInfo_Id : "sGwInfo_2",
+	ipAddress : "192.0.2.0",
+	tunnelId : "3333"
+})

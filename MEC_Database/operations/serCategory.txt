@@ -1,0 +1,17 @@
+db.serCategory.insert({
+	serCategory_Id : "serCategory_1",
+	href : "catItem1",
+	name : "RNI",
+	id : "id12345",
+	version : "version1",
+	filCategory_Id : ""
+})
+
+db.serCategory.insert({
+	serCategory_Id : "serCategory_2",
+	href : "catItem2",
+	name : "RNI",
+	id : "id12345",
+	version : "version2",
+	filCategory_Id : ""
+})

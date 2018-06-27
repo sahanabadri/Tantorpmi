@@ -1,0 +1,25 @@
+1. login
+2. menu
+3. change password
+4. agenda page
+5. student details 
+6. exit assessment
+7. pin page
+8. section 1 / non manipulative
+9. sec 1 mcq
+10. sec 1 textinput
+11. sec 1 OR
+12. section 2
+13. Manipulative
+14. sec 2 mcq
+15. sec 2 textinput
+16. sec 2 OR
+17. mark your test 
+18. result page
+19. history tab
+20. tooltip
+
+
+
+
+

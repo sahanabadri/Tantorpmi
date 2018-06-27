@@ -1,0 +1,29 @@
+db.trafficFilter.insert({
+	trafficFilter_Id : "trafficFilter_1",
+	protocol : "",
+	token : "",
+	srcTunnelAddress : "",
+	tgtTunnelAddress : "",
+	srcTunnelPort : "",
+	dstTunnelPort : "",
+	qCI : "1",
+	dSCP : "0",
+	tC : "1",
+	srcAddress_Id : "srcAddress_1",
+	dstAddress_Id : "dstAddress_1"
+})
+
+db.trafficFilter.insert({
+	trafficFilter_Id : "trafficFilter_2",
+	protocol : "",
+	token : "",
+	srcTunnelAddress : "",
+	tgtTunnelAddress : "",
+	srcTunnelPort : "",
+	dstTunnelPort : "",
+	qCI : "1",
+	dSCP : "0",
+	tC : "1",
+	srcAddress_Id : "srcAddress_2",
+	dstAddress_Id : "dstAddress_2"
+})

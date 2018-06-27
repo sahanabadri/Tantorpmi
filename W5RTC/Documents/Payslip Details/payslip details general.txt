@@ -1,0 +1,21 @@
+1. Name 
+2. Father name
+3. Date of birth
+4. Date of joining
+5. Designation
+6. Bank name
+7. Bank Account number
+8. IFSC code
+9. Pan number
+10. Aadhar number
+11. Voter Id
+12. Passport number
+13. official email id
+14. Mobile number
+15. Basic Pay 
+16. HRA
+17. Medical
+18. Conveyance
+19. Spl Allowance
+20. Gross
+21. Professional Tax

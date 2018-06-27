@@ -1,0 +1,15 @@
+db.timingCaps.insert({
+	timingCaps_Id : "timingCaps_1",
+	timeStamp_Id : "timeStamp_1",
+	ntpServers_Id : "ntpServers_1",
+	ptpMasters_Id : "ptpMasters_1",
+	appIns_Id : ""
+})
+
+db.timingCaps.insert({
+	TimingCaps_Id : "timingCaps_2",
+	timeStamp_Id : "timeStamp_2",
+	ntpServers_Id : "ntpServers_2",
+	ptpMasters_Id : "ptpMasters_2",
+	appIns_Id : ""
+})

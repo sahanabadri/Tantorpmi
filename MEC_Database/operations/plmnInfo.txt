@@ -1,0 +1,15 @@
+db.plmnInfo.insert({
+	plmnInfo_Id : "plmnInfo_1",
+	cellId : "0x800000A",
+	appInId : "01",
+	ecgi_Id : "ecgi_1",
+	timeStamp_Id : "timeStamp_1"
+})
+
+db.plmnInfo.insert({
+	plmnInfo_Id : "plmnInfo_2",
+	cellId : "0x800000A",
+	appInId : "02",
+	ecgi_Id : "ecgi_2",
+	timeStamp_Id : "timeStamp_2"
+})

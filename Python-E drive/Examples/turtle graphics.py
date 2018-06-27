@@ -1,1 +1,0 @@
-# example to try turtle graphics.import turtlewin = turtle.Screen()turtle.forward(90)turtle.left(90)turtle.forward(100)turtle.left(90)turtle.forward(90)turtle.left(90)turtle.forward(100)turtle.forward(90)turtle.left(120)turtle.forward(90)turtle.left(120)turtle.forward(90)win.exitonclick()

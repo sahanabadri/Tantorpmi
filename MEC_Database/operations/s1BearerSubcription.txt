@@ -1,0 +1,15 @@
+db.s1BearerSubcription.insert({
+	s1BearerSubcription_Id : "",
+	links_Id : "links_1",
+	eventType : "S1_BEARER_ESTABLISH",
+	s1BearerSubcriptionCriteria_Id : "s1BearerSubcriptionCriteria_1",
+	expiryDeadline_Id : "expiryDeadline_1"
+})
+
+db.s1BearerSubcription.insert({
+	s1BearerSubcription_Id : "",
+	links_Id : "links_2",
+	eventType : "S1_BEARER_ESTABLISH",
+	s1BearerSubcriptionCriteria_Id : "s1BearerSubcriptionCriteria_2",
+	expiryDeadline_Id : "expiryDeadline_2"
+})

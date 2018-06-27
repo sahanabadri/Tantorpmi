@@ -1,0 +1,25 @@
+db.appInfo.insert({
+	appInfo_Id : "appInfo_1",
+	appName : "string",
+	appProvider : "string",
+	appSoftVersion : "string",
+	appDescription : "string",
+	referenceURL : "string",
+	appPackageSource : "string",
+	contextId : "string",
+	appCharcs_Id : "appCharcs_1",
+	applicationList_Id : "applicationList_1"
+})
+
+db.appInfo.insert({
+	appInfo_Id : "appInfo_2",
+	appName : "string",
+	appProvider : "string",
+	appSoftVersion : "string",
+	appDescription : "string",
+	referenceURL : "string",
+	appPackageSource : "string",
+	contextId : "string",
+	appCharcs_Id : "appCharcs_2",
+	applicationList_Id : "applicationList_2"
+})

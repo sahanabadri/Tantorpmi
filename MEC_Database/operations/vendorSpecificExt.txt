@@ -1,0 +1,13 @@
+db.vendorSpecificExt.insert({
+	vendorSpecificExt_Id : "vendorSpecificExt_1",
+	vendorId : "string",
+	contextId : "string",
+	applicationList_Id : "applicationList_1"
+})
+
+db.vendorSpecificExt.insert({
+	vendorSpecificExt_Id : "vendorSpecificExt_2",
+	vendorId : "string",
+	contextId : "string",
+	applicationList_Id : "applicationList_2"
+})

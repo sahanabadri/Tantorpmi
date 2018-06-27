@@ -1,0 +1,11 @@
+db.expiryDeadline.insert({
+	expiryDeadline_Id : "expiryDeadline_1",
+	seconds : "1577836800",
+	nanoSeconds : "0"
+})
+
+db.expiryDeadline.insert({
+	expiryDeadline_Id : "expiryDeadline_1",
+	seconds : "157763800",
+	nanoSeconds : "0"
+})

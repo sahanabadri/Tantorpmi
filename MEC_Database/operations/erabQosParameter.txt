@@ -1,0 +1,11 @@
+db.erabQosParameter.insert({
+	erabQosParameter_Id : "erabQosParameter_1",
+	qci : "7",
+	qosInfo_Id : "qosInfo_1"
+})
+
+db.erabQosParameter.insert({
+	erabQosParameter_Id : "erabQosParameter_2",
+	qci : "8",
+	qosInfo_Id : "qosInfo_2"
+})

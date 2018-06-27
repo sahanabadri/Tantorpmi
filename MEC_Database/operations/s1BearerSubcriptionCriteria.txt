@@ -1,0 +1,15 @@
+db.s1BearerSubcriptionCriteria.insert({
+	s1BearerSubcriptionCriteria_Id : "",
+	cellId : "0x800000A",
+	erabId : "10",
+	associate_Id : "associate_1",
+	plmn_Id : "plmn_1"
+})
+
+db.s1BearerSubcriptionCriteria.insert({
+	s1BearerSubcriptionCriteria_Id : "",
+	cellId : "0x800000B",
+	erabId : "10",
+	associate_Id : "associate_2",
+	plmn_Id : "plmn_2"
+})

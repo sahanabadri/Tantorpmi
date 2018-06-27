@@ -1,4 +1,0 @@
-1. Search for SECTION A text
-2. Choose the start point
-3. fetch "<div class="col-sm-12">" (KEEP THE TABS)
-4. change "col-sm-12" to "SOME OTHER TEXT"

@@ -1,0 +1,11 @@
+db.subcription.insert({
+	sub_Id : "sub_1",
+	href : "http://meAppClient.example.com/rni/v1/notifications/cell_change/77777",
+	subcriptionType : "CELL_CHANGE"
+})
+
+db.subcription.insert({
+	sub_Id : "sub_2",
+	href : "http://meAppClient.example.com/rni/v1/notifications/MeasTa/77777",
+	subcriptionType : "MEAS_TIMING_ADVANCE"
+})

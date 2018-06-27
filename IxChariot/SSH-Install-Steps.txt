@@ -1,0 +1,264 @@
+C:\Users\automation-user1>
+C:\Users\automation-user1>
+C:\Users\automation-user1>ssh automation-user1@10.66.41.2
+Unable to negotiate with 10.66.41.2 port 22: no matching key exchange method fou
+nd. Their offer: diffie-hellman-group1-sha1
+
+C:\Users\automation-user1>
+C:\Users\automation-user1>
+C:\Users\automation-user1>
+C:\Users\automation-user1>
+C:\Users\automation-user1>
+C:\Users\automation-user1>
+C:\Users\automation-user1>
+C:\Users\automation-user1>
+C:\Users\automation-user1>
+C:\Users\automation-user1>
+C:\Users\automation-user1>ssh 10.66.41.2
+The authenticity of host '10.66.41.2 (10.66.41.2)' can't be established.
+ECDSA key fingerprint is SHA256:a0VSOzi1VxOXeD05sSLwJgoWJXAjMV1nQgxlP/hIU44.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '10.66.41.2' (ECDSA) to the list of known hosts.
+
+                            ****USAGE WARNING****
+
+This is a private computer system. This computer system, including all
+related equipment, networks, and network devices (specifically including
+Internet access) are provided only for authorized use. This computer system
+may be monitored for all lawful purposes, including to ensure that its use
+is authorized, for management of the system, to facilitate protection against
+unauthorized access, and to verify security procedures, survivability, and
+operational security. Monitoring includes active attacks by authorized entities
+to test or verify the security of this system. During monitoring, information
+may be examined, recorded, copied and used for authorized purposes. All
+information, including personal information, placed or sent over this system
+may be monitored.
+
+Use of this computer system, authorized or unauthorized, constitutes consent
+to monitoring of this system. Unauthorized use may subject you to criminal
+prosecution. Evidence of unauthorized use collected during monitoring may be
+used for administrative, criminal, or other adverse action. Use of this system
+constitutes consent to monitoring for these purposes.
+
+
+automation-user1@10.66.41.2's password:
+
+C:\Users\automation-user1>
+C:\Users\automation-user1>
+C:\Users\automation-user1>ssh automation-user1@10.66.41.2
+
+                            ****USAGE WARNING****
+
+This is a private computer system. This computer system, including all
+related equipment, networks, and network devices (specifically including
+Internet access) are provided only for authorized use. This computer system
+may be monitored for all lawful purposes, including to ensure that its use
+is authorized, for management of the system, to facilitate protection against
+unauthorized access, and to verify security procedures, survivability, and
+operational security. Monitoring includes active attacks by authorized entities
+to test or verify the security of this system. During monitoring, information
+may be examined, recorded, copied and used for authorized purposes. All
+information, including personal information, placed or sent over this system
+may be monitored.
+
+Use of this computer system, authorized or unauthorized, constitutes consent
+to monitoring of this system. Unauthorized use may subject you to criminal
+prosecution. Evidence of unauthorized use collected during monitoring may be
+used for administrative, criminal, or other adverse action. Use of this system
+constitutes consent to monitoring for these purposes.
+
+
+automation-user1@10.66.41.2's password:
+Last login: Thu Jul 20 15:45:51 2017 from 10.66.41.2
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Program Files\OpenSSH\home\automation-user1>exit
+Connection to 10.66.41.2 closed.
+
+C:\Users\automation-user1>ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/automation-user1/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/automation-user1/.ssh/id_rsa.
+Your public key has been saved in /home/automation-user1/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:8raMDfUX1CilgBWmZkNdGZ93Hm1kglmmWj+HlRNoPQs automation-user1@WifiAutomati
+onServer
+The key's randomart image is:
++---[RSA 2048]----+
+|      .+=ooo.+*.o|
+|     ..o...+oE *+|
+|      =   o O ++B|
+|     o .   = o Bo|
+|      . S . . + o|
+|       + .   . o |
+|      . o . .    |
+|       * . .     |
+|      . +        |
++----[SHA256]-----+
+
+C:\Users\automation-user1>cd .ssh
+
+C:\Users\automation-user1\.ssh>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 1259-9F16
+
+ Directory of C:\Users\automation-user1\.ssh
+
+07/20/2017  11:55 AM    <DIR>          .
+07/20/2017  11:55 AM    <DIR>          ..
+07/20/2017  11:55 AM             1,679 id_rsa
+07/20/2017  11:55 AM               419 id_rsa.pub
+07/20/2017  11:54 AM               528 known_hosts
+               3 File(s)          2,626 bytes
+               2 Dir(s)  15,133,360,128 bytes free
+
+C:\Users\automation-user1\.ssh>scp id_rsa.pub automation-user1@10.66.41.2:10_66_
+41_3-id_rsa.pub
+
+                            ****USAGE WARNING****
+
+This is a private computer system. This computer system, including all
+related equipment, networks, and network devices (specifically including
+Internet access) are provided only for authorized use. This computer system
+may be monitored for all lawful purposes, including to ensure that its use
+is authorized, for management of the system, to facilitate protection against
+unauthorized access, and to verify security procedures, survivability, and
+operational security. Monitoring includes active attacks by authorized entities
+to test or verify the security of this system. During monitoring, information
+may be examined, recorded, copied and used for authorized purposes. All
+information, including personal information, placed or sent over this system
+may be monitored.
+
+Use of this computer system, authorized or unauthorized, constitutes consent
+to monitoring of this system. Unauthorized use may subject you to criminal
+prosecution. Evidence of unauthorized use collected during monitoring may be
+used for administrative, criminal, or other adverse action. Use of this system
+constitutes consent to monitoring for these purposes.
+
+
+automation-user1@10.66.41.2's password:
+id_rsa.pub                                    100%  419     9.2KB/s   00:00
+
+C:\Users\automation-user1\.ssh>
+C:\Users\automation-user1\.ssh>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 1259-9F16
+
+ Directory of C:\Users\automation-user1\.ssh
+
+07/20/2017  11:58 AM    <DIR>          .
+07/20/2017  11:58 AM    <DIR>          ..
+07/20/2017  11:52 AM               412 authorized_keys
+07/20/2017  11:55 AM             1,679 id_rsa
+07/20/2017  11:55 AM               419 id_rsa.pub
+07/20/2017  11:54 AM               528 known_hosts
+               4 File(s)          3,038 bytes
+               2 Dir(s)  15,133,335,552 bytes free
+
+C:\Users\automation-user1\.ssh>ssh automation-user1@IXIAAPPSERVER
+The authenticity of host 'ixiaappserver (fe80::9985:3b08:d75:366f%15)' can't be
+established.
+ECDSA key fingerprint is SHA256:a0VSOzi1VxOXeD05sSLwJgoWJXAjMV1nQgxlP/hIU44.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'ixiaappserver,fe80::9985:3b08:d75:366f%15' (ECDSA) t
+o the list of known hosts.
+
+                            ****USAGE WARNING****
+
+This is a private computer system. This computer system, including all
+related equipment, networks, and network devices (specifically including
+Internet access) are provided only for authorized use. This computer system
+may be monitored for all lawful purposes, including to ensure that its use
+is authorized, for management of the system, to facilitate protection against
+unauthorized access, and to verify security procedures, survivability, and
+operational security. Monitoring includes active attacks by authorized entities
+to test or verify the security of this system. During monitoring, information
+may be examined, recorded, copied and used for authorized purposes. All
+information, including personal information, placed or sent over this system
+may be monitored.
+
+Use of this computer system, authorized or unauthorized, constitutes consent
+to monitoring of this system. Unauthorized use may subject you to criminal
+prosecution. Evidence of unauthorized use collected during monitoring may be
+used for administrative, criminal, or other adverse action. Use of this system
+constitutes consent to monitoring for these purposes.
+
+
+automation-user1@ixiaappserver's password:
+Permission denied, please try again.
+automation-user1@ixiaappserver's password:
+Last login: Thu Jul 20 15:55:06 2017 from 10.66.41.3
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Program Files\OpenSSH\home\automation-user1>
+C:\Program Files\OpenSSH\home\automation-user1>exit
+Connection to ixiaappserver closed.
+
+C:\Users\automation-user1\.ssh>
+C:\Users\automation-user1\.ssh>ssh automation-user1@IXIAAPPSERVER
+
+                            ****USAGE WARNING****
+
+This is a private computer system. This computer system, including all
+related equipment, networks, and network devices (specifically including
+Internet access) are provided only for authorized use. This computer system
+may be monitored for all lawful purposes, including to ensure that its use
+is authorized, for management of the system, to facilitate protection against
+unauthorized access, and to verify security procedures, survivability, and
+operational security. Monitoring includes active attacks by authorized entities
+to test or verify the security of this system. During monitoring, information
+may be examined, recorded, copied and used for authorized purposes. All
+information, including personal information, placed or sent over this system
+may be monitored.
+
+Use of this computer system, authorized or unauthorized, constitutes consent
+to monitoring of this system. Unauthorized use may subject you to criminal
+prosecution. Evidence of unauthorized use collected during monitoring may be
+used for administrative, criminal, or other adverse action. Use of this system
+constitutes consent to monitoring for these purposes.
+
+
+Last login: Thu Jul 20 16:08:21 2017 from fe80::c94d:6498:f5d6:d452%13
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Program Files\OpenSSH\home\automation-user1>
+C:\Program Files\OpenSSH\home\automation-user1>exit
+Connection to ixiaappserver closed.
+
+C:\Users\automation-user1\.ssh>ssh automation-user1@10.66.41.2
+
+                            ****USAGE WARNING****
+
+This is a private computer system. This computer system, including all
+related equipment, networks, and network devices (specifically including
+Internet access) are provided only for authorized use. This computer system
+may be monitored for all lawful purposes, including to ensure that its use
+is authorized, for management of the system, to facilitate protection against
+unauthorized access, and to verify security procedures, survivability, and
+operational security. Monitoring includes active attacks by authorized entities
+to test or verify the security of this system. During monitoring, information
+may be examined, recorded, copied and used for authorized purposes. All
+information, including personal information, placed or sent over this system
+may be monitored.
+
+Use of this computer system, authorized or unauthorized, constitutes consent
+to monitoring of this system. Unauthorized use may subject you to criminal
+prosecution. Evidence of unauthorized use collected during monitoring may be
+used for administrative, criminal, or other adverse action. Use of this system
+constitutes consent to monitoring for these purposes.
+
+
+Last login: Thu Jul 20 16:20:32 2017 from fe80::c94d:6498:f5d6:d452%13
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Program Files\OpenSSH\home\automation-user1>exit
+Connection to 10.66.41.2 closed.
+
+C:\Users\automation-user1\.ssh>
+C:\Users\automation-user1\.ssh>

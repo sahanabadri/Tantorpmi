@@ -1,0 +1,25 @@
+db.serviceInfo.insert({
+	serviceInfo_Id : "serviceInfo_1",
+	serInstanceId : "ServiceInstance123",
+	serName : "/meMp1/example",
+	version : "ServiceVersion1",
+	stat : "ACTIVE",
+	transportId : "Rest1",
+	serializer : "JSON",
+	transportInfo_Id : "transportInfo_1",
+	serCategory_Id : "serCategory_1",
+	appIns_Id : ""
+})
+
+db.serviceInfo.insert({
+	serviceInfo_Id : "serviceInfo_2",
+	serInstanceId : "ServiceInstance123",
+	serName : "/meMp1/example",
+	version : "ServiceVersion1",
+	stat : "ACTIVE",
+	transportId : "Rest1",
+	serializer : "JSON",
+	transportInfo_Id : "transportInfo_1",
+	serCategory_Id : "serCategory_1",
+	appIns_Id : ""
+})

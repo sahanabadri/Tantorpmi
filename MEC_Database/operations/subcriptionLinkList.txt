@@ -1,0 +1,9 @@
+db.subcriptionLinkList.insert({
+	subcriptionLinkList_Id : "subcriptionLinkList_1",
+	links_Id : "links_1"
+})
+
+db.subcriptionLinkList.insert({
+	subcriptionLinkList_Id : "subcriptionLinkList_2",
+	links_Id : "links_2"
+})

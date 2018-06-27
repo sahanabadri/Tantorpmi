@@ -1,0 +1,21 @@
+db.zonalTrafficSubscription.insert({
+	zonalTrafficSubscription_Id : "zonalTrafficSubscription_1",
+	clientCorrelator : "123",
+	resourceURL : "http://example.com/exampleAPI/location/v1/subscriptions/zonalTraffic/subscription123",
+	zoneId : "zone01",
+	interestRealm : "LA",
+	userEventCriteria : "Transferring",
+	duration : "0",
+	notificationSubscriptionList_Id : "notificationSubscriptionList_1"
+})
+
+db.zonalTrafficSubscription.insert({
+	zonalTrafficSubscription_Id : "zonalTrafficSubscription_2",
+	clientCorrelator : "124",
+	resourceURL : "http://example.com/exampleAPI/location/v1/subscriptions/zonalTraffic/subscription124",
+	zoneId : "zone02",
+	interestRealm : "LA",
+	userEventCriteria : "Transferring",
+	duration : "0",
+	notificationSubscriptionList_Id : "notificationSubscriptionList_2"
+})

@@ -1,0 +1,11 @@
+db.ueIdentityTagInfo.insert({
+	ueIdentityTagInfo_Id : "ueIdentityTagInfo_1",
+	ueIdentityTags_Id : "ueIdentityTags_1",
+	appIns_Id : ""
+})
+
+db.ueIdentityTagInfo.insert({
+	ueIdentityTagInfo_Id : "ueIdentityTagInfo_2",
+	ueIdentityTags_Id : "ueIdentityTags_2",
+	appIns_Id : ""
+})

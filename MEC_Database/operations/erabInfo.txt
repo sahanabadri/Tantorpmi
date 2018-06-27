@@ -1,0 +1,9 @@
+db.erabInfo.insert({
+	erabInfo_Id : "erabInfo_1",
+	erabId : "10"
+})
+	
+db.erabInfo.insert({
+	erabInfo_Id : "erabInfo_2",
+	erabId : "20"
+})

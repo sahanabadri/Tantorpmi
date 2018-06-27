@@ -1,0 +1,25 @@
+db.filteringCriteria.insert({
+	filCategory_Id : "filCategory_1",
+	serInstanceId : "ServiceInstance123",
+	serName : "/meMp1/example",
+	version : "ServiceVersion1",
+	stat : "ACTIVE",
+	transportId : "Rest1",
+	serializer : "JSON",
+	transportInfo_Id : "transportInfo_1",
+	serCategory_Id : "serCategory_1",
+	subscriptions_Id : ""
+})
+
+db.filteringCriteria.insert({
+	filCategory_Id : "filCategory_2",
+	serInstanceId : "ServiceInstance124",
+	serName : "/meMp1/example",
+	version : "ServiceVersion2",
+	stat : "ACTIVE",
+	transportId : "Rest2",
+	serializer : "JSON",
+	transportInfo_Id : "transportInfo_2",
+	serCategory_Id : "serCategory_2",
+	subscriptions_Id : ""
+})

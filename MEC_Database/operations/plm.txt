@@ -1,0 +1,11 @@
+db.plm.insert({
+	plm_Id : "plm_1",
+	mcc : "001",
+	mnc : "01"
+})
+	
+db.plm.insert({
+	plm_Id : "plm_2",
+	mcc : "002",
+	mnc : "02"
+})

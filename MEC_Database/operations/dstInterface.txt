@@ -1,0 +1,17 @@
+db.dstInterface.insert({
+	dstInterface_Id : "dstInterface_1",
+	interfaceType : "IP",
+	dstIpAddress : "20.1.1.1",
+	dstMacAddress : "02-00-00-00-00-00",
+	tunnelInfo_Id : "tunnelInfo_1",
+	tRule_Id : "tRule_1"
+})
+
+db.dstInterface.insert({
+	dstInterface_Id : "dstInterface_2",
+	interfaceType : "TUNNEL",
+	dstIpAddress : "",
+	dstMacAddress : "",
+	tunnelInfo_Id : "tunnelInfo_2",
+	tRule_Id : "tRule_2"
+})

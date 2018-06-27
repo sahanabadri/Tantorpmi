@@ -1,0 +1,15 @@
+db.endPoint.insert({
+	endPoint_Id : "endPoint_1",
+	alternative : "",
+	uris_Id : "uris_1",
+	address_Id : "address_1",
+	transportInfo_Id : "transportInfo_1"
+})
+
+db.endPoint.insert({
+	endPoint_Id : "endPoint_2",
+	alternative : "",
+	uris_Id : "uris_2",
+	address_Id : "address_2",
+	transportInfo_Id : "transportInfo_2"
+})

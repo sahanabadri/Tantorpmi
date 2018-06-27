@@ -1,0 +1,15 @@
+db.qosInformation.insert({
+	qosInfo_Id : "qosInfo_1",
+	erabMbrDl : "10",
+	erabMbrUl : "10",
+	erabGbrDl : "10",
+	erabGbrUl : "10"
+})
+
+db.qosInformation.insert({
+	qosInfo_Id : "qosInfo_2",
+	erabMbrDl : "20",
+	erabMbrUl : "20",
+	erabGbrDl : "20",
+	erabGbrUl : "20"
+})

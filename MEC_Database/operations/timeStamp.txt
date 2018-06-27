@@ -1,0 +1,13 @@
+db.timeStamp.insert({
+	timeStamp_Id : "",
+	seconds : "",
+	nanoSeconds : "",
+	timingCaps_Id : ""
+})
+
+db.timeStamp.insert({
+	timeStamp_Id : "",
+	seconds : "",
+	nanoSeconds : "",
+	timingCaps_Id : ""
+})

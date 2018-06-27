@@ -1,0 +1,13 @@
+db.security.insert({
+	security_Id : "security_1",
+	SecurityType : "oAuth2Info",
+	transportInfo_Id : "transportInfo_1",
+	oAuth2Info_Id : "oAuth2Info_1"
+})
+
+db.security.insert({
+	security_Id : "security_2",
+	SecurityType : "oAuth2Info",
+	transportInfo_Id : "transportInfo_1",
+	oAuth2Info_Id : "oAuth2Info_1"
+})

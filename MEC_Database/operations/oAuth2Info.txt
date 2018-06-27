@@ -1,0 +1,13 @@
+db.oAuth2Info.insert({
+	oAuth2Info_Id : "oAuth2Info_1",
+	grantTypes : "OAUTH2_CLIENT_CREDENTIALS",
+	tokenEndpoint : "/meMp1/security/TokenEndPoint",
+	security_Id : "security_1"
+})
+
+db.oAuth2Info.insert({
+	oAuth2Info_Id : "oAuth2Info_2",
+	grantTypes : "OAUTH2_CLIENT_CREDENTIALS",
+	tokenEndpoint : "/meMp1/security/TokenEndPoint",
+	security_Id : "security_2"
+})

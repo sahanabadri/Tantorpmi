@@ -1,0 +1,13 @@
+db.s1BearerInfoDetailed.insert({
+	s1BearerInfoDetailed_Id : "s1BearerInfoDetailed_1",
+	erabId : "1",
+	s1EnbInfo_Id : "s1EnbInfo_1",
+	sGwInfo_Id : "sGwInfo_1"
+})
+
+db.s1BearerInfoDetailed.insert({
+	s1BearerInfoDetailed_Id : "s1BearerInfoDetailed_2",
+	erabId : "1",
+	s1EnbInfo_Id : "s1EnbInfo_2",
+	sGwInfo_Id : "sGwInfo_2"
+})

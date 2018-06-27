@@ -1,0 +1,15 @@
+db.ueInfo.insert({
+	ueInfo_Id : "ueInfo_1",
+	associate_Id : "null",
+	type : "1",
+	value : "192.0.2.0",
+	erabInfo_Id : "erabInfo_1"
+})
+
+db.ueInfo.insert({
+	ueInfo_Id : "ueInfo_2",
+	associate_Id : "null",
+	type : "2",
+	value : "192.1.2.3",
+	erabInfo_Id : "erabInfo_2"
+})

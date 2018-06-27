@@ -1,0 +1,11 @@
+db.associate.insert({
+	associate_Id : "associate_1",
+	type : "1",
+	value : "192.0.2.0"
+})
+
+db.associate.insert({
+	associate_Id : "associate_2",
+	type : "3",
+	value : "198.51.100.0"
+})

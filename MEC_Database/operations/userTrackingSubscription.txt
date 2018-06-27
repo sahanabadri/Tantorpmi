@@ -1,0 +1,19 @@
+db.userTrackingSubscription.insert({
+	userTrackingSubscription_Id : "",
+	clientCorrelator : "123",
+	resourceURL : "http://example.com/exampleAPI/location/v1/subscriptions/zonalTraffic/subscription123",
+	address : "acr:192.0.2.1",
+	userEventCriteria : "Transferring",
+	notificationSubscriptionList_Id : "notificationSubscriptionList_1",
+	callBackReference_Id : "callBackReference_1"
+})
+
+db.userTrackingSubscription.insert({
+	userTrackingSubscription_Id : "",
+	clientCorrelator : "124",
+	resourceURL : "http://example.com/exampleAPI/location/v1/subscriptions/zonalTraffic/subscription124",
+	address : "acr:192.0.2.2",
+	userEventCriteria : "Transferring",
+	notificationSubscriptionList_Id : "notificationSubscriptionList_2",
+	callBackReference_Id : "callBackReference_2"
+})

@@ -1,0 +1,15 @@
+db.currentTime.insert({
+	currentTime_Id : "currentTime_1",
+	seconds : "1521366665",
+	nanoSeconds : "1521366665000000000",
+	timeSourceStatus : "TRACEABLE",
+	appIns_Id : ""
+})
+
+db.currentTime.insert({
+	currentTime_Id : "currentTime_2",
+	seconds : "1531299665",
+	nanoSeconds : "1531299665000000000",
+	timeSourceStatus : "TRACEABLE",
+	appIns_Id : ""
+})

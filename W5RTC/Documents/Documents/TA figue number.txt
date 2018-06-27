@@ -1,0 +1,95 @@
+TA NEOLS 1
+================================
+1. Login
+2. Home page
+3. Classes tab full view
+4. Top filters
+5. Main graph
+6. Tooltip
+7. Strands graph
+8. Individual trand graph with tooltip 
+9. Classes 2nd page graph
+10. Classes 2nd tooltip
+11. Student assessment details 
+12. Student result right or wrong
+13. Question preview
+14. Curriculum 1st page
+15. Top filters
+16. Curriculum main graph
+17. Tooltip
+18. Curriculum chart
+19. Curriculum 2nd page
+20. Tooltip for 2nd page
+21. 2nd page chart
+22. Curriculum 3rd page
+23. Assessment questions results
+24. Question preview
+25. Student details tab
+26. Historical assessment score graph
+27. Strand scores and notes
+28. No question answered
+29. GE - P&A
+30. GE - G&S
+31. GE - N&N
+32. GE - D&P
+33. Camera icon Preview
+34. Question preview
+35. Edit student
+
+TA NEOLS 2
+================================
+1. Scorecard
+2. Scorecard - G&P
+3. Scorecard - N&D
+4. Scorecard - curriculum
+5. Groups tab
+6. Grouping constrains
+7. Grouping results
+8. Groups tab button
+9. Create Group from list
+10. Sample group table
+11. Sample group user table
+12. Create Group
+13. Modify group
+14. Delete group
+15. Question rating
+16.Question rating with question id
+
+TA NEOLS 3
+================================
+1. Calendar
+2. Calendar Preview
+3. Library Tab
+4. Library - question tags
+5. Library  - text and images 
+6. Library  - answer - multiple choice
+7. Library  - answer - text input
+8. Library  - answer - open response
+9. Library - Buttons
+10. Exit tickect tab
+11. Details selections 
+12. Filter selections 
+13. Question selections
+14. Selected questions
+15. Exit ticket - Review
+16. Pending tab 
+17. Pending tab menu
+18. Pending tab- top filters
+19. Pending Test
+20. Students in selected assessment
+21. Unmarked questions
+22. Scoring Screen
+23. Scored and marked up bythe teacher
+24. View solution button
+25.Solution pop up window
+26. Feedback 
+27. Selection of feedback details
+28. Feedback text area
+29. Whiteboard Selection screen
+30. Whiteboard Screen
+
+TA NEOLS 4
+================================
+1. Assessment tab
+2. Assessment details
+3. 

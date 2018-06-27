@@ -1,0 +1,13 @@
+db.rabRelSubscription.insert({
+	rabRelSubscription_Id : "",
+	links_Id : "links_1",
+	filterCriteriaAssocQci_Id : "filterCriteriaAssocQci_1",
+	expiryDeadline_Id : "expiryDeadline_1"
+})
+
+db.rabRelSubscription.insert({
+	rabRelSubscription_Id : "",
+	links_Id : "links_2",
+	filterCriteriaAssocQci_Id : "filterCriteriaAssocQci_2",
+	expiryDeadline_Id : "expiryDeadline_2"
+})

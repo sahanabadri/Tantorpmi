@@ -1,0 +1,13 @@
+db.dstAddress.insert({
+	dstAddress_Id : "dstAddress_1",
+	dstAddress : "192.127.4.100/32",
+	dstPort : "80",
+	trafficFilter_Id : "trafficFilter_1"
+})
+
+db.dstAddress.insert({
+	dstAddress_Id : "dstAddress_"2,
+	dstAddress : "",
+	dstort : "",
+	trafficFilter_Id : "trafficFilter_2"
+})

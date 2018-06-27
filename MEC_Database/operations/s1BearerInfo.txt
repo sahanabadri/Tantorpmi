@@ -1,0 +1,11 @@
+db.s1BearerInfo.insert({
+	s1BearerInfo_Id : "s1BearerInfo_1",
+	timeStamp_Id : "timeStamp_1",
+	s1UeInfo_Id : "s1UeInfo_1"
+})
+
+db.s1BearerInfo.insert({
+	s1BearerInfo_Id : "s1BearerInfo_2",
+	timeStamp_Id : "timeStamp_2",
+	s1UeInfo_Id : "s1UeInfo_2"
+})

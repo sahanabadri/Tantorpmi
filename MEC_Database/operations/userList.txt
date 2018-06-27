@@ -1,0 +1,13 @@
+db.userList.insert({
+	userList_Id : "userList_1",
+	resourceURL : "http://example.com/exampleAPI/location/v1/users",
+	address : "acr:192.0.2.1",
+	userInfo_Id : "userInfo_1"
+})
+
+db.userList.insert({
+	userList_Id : "userList_2",
+	resourceURL : "http://example.com/exampleAPI/location/v1/users",
+	address : "acr:192.10.20.30",
+	userInfo_Id : "userInfo_2"
+})

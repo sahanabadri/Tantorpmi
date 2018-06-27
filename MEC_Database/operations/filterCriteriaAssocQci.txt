@@ -1,0 +1,17 @@
+db.filterCriteriaAssocQci.insert({
+	filterCriteriaAssocQci_Id : "",
+	appInsId : "",
+	cellId : "",
+	qci : "",
+	associate_Id : "associate_1",
+	plmn_Id : "plmn_1"
+})
+
+db.filterCriteriaAssocQci.insert({
+	filterCriteriaAssocQci_Id : "",
+	appInsId : "",
+	cellId : "",
+	qci : "",
+	associate_Id : "associate_2",
+	plmn_Id : "plmn_2"
+})

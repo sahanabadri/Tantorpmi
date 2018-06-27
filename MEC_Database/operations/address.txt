@@ -1,0 +1,13 @@
+db.address.insert({
+	address_Id : "address_1",
+	host : "192.0.2.0",
+	port : "8080",
+	endPoint_Id : "endPoint_1"
+})
+
+db.address.insert({
+	address_Id : "address_2",
+	host : "192.0.2.0",
+	port : "8080",
+	endPoint_Id : "endPoint_2"
+})

@@ -1,0 +1,21 @@
+db.dnsRule.insert({
+	dRule_Id : "dRule_1",
+	dnsRuleId : "DnsRuleId1",
+	domainName : "www.example.com",
+	ipAddressType : "IP_V4",
+	ipAddress : "146.241.7.3",
+	ttl : "300",
+	state : "ACTIVE",
+	appIns_Id : ""
+})
+
+db.dnsRule.insert({
+	dRule_Id : "dRule_2",
+	dnsRuleId : "DnsRuleId2",
+	domainName : "www.example.com",
+	ipAddressType : "IP_V4",
+	ipAddress : "198.162.28.5",
+	ttl : "0",
+	state : "ACTIVE",
+	appIns_Id : ""
+})

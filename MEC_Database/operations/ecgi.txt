@@ -1,0 +1,9 @@
+db.ecgi.insert({
+	egci_Id : "egci_1",
+	plm_Id : "plm_1"
+})
+	
+db.ecgi.insert({
+	egci_Id : "egci_2",
+	plm_Id : "plm_2"
+})

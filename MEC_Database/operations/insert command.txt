@@ -1,0 +1,625 @@
+
+db.mainTable.insert({
+	appIns_Id : "", 
+	dnsRuleId : "", 
+	subscriptions_Id :"",
+	tRule_Id : "", 
+	serInstanceId : "", 
+	currentTime_Id : "",
+	timingCaps_Id : "",
+	zoneList_Id : "",
+	accessPointId : "",
+	userList_Id : "",
+	notificationSubscriptionList_Id : "",
+	ueIdentityTagInfo_Id : "",
+	bwInfo_Id : "",
+	applicationList_Id : ""
+}) 
+
+db.dnsRule.insert({
+	dRule_Id : "",
+	dnsRuleId : "",
+	domainName : "",
+	ipAddressType : "",
+	ipAddress : "",
+	ttl : "",
+	state : "",
+	appIns_Id : ""
+})
+
+db.subcriptions.insert({
+	subscriptions_Id : "",
+	subscriptionType : "",
+	callbackReference : "",
+	href : "",
+	rel : "",
+	appInstanceId : "",
+	dRule_Id : "",
+	appIns_Id : "",
+	links_Id : "",
+	filCategory_Id : ""
+})
+
+db.links.insert({
+	links_Id : "",
+	self : "",
+	uris_Id : "",
+	subscriptions_Id : ""
+	sub_Id : ""
+})
+
+db.filteringCriteria.insert({
+	filCategory_Id : "",
+	serInstanceId : "",
+	serName : "",
+	version : "",
+	stat : "",
+	transportId : "",
+	serializer : "",
+	transportInfo_Id : "",
+	serCategory_Id : "",
+	security : "",
+	subscriptions_Id : ""
+})
+
+db.serCategory.insert({
+	serCategory_Id : "",
+	href : "",
+	name : "",
+	id : "",
+	version : "",
+	filCategory_Id : ""
+})
+
+db.transportInfo.insert({
+	transportInfo_Id : "",
+	id : "",
+	name : "",
+	description : "",
+	type : "",
+	protocol : "",
+	version : "",
+	implSpecificInfo : "",
+	endPoint_Id : ""
+})
+
+db.endPoint.insert({
+	endPoint_Id : "",
+	uris_Id : "",
+	address_Id : "",
+	transportInfo_Id : "",
+	alternative : ""
+})
+
+db.uris.insert({
+	uris_Id : "",
+	uris : "",
+	endpoint_Id : ""
+})
+
+db.security.insert({
+	security_Id : "",
+	SecurityType : "",
+	transportInfo_Id : "",
+	oAuth2Info_Id : ""
+})
+
+db.address.insert({
+	address_Id : "",
+	host : "",
+	port : "",
+	endpoint_Id : ""
+})
+
+db.oAuth2Info.insert({
+	oAuth2Info_Id : "",
+	grantTypes : "",
+	tokenEndpoint : "",
+	security_Id : ""
+})
+
+==========================================
+
+db.trafficRule.insert({
+	tRule_Id : "",
+	trafficRuleId : "",
+	serName : "",
+	filterType : "",
+	priority : "",
+	action : "",
+	state : "",
+	appIns_Id : "",
+	trafficFilter_Id : "",
+	dstInterface_Id : ""
+})
+
+db.trafficFilter.insert({
+	trafficFilter_Id : "",
+	protocol : "",
+	token : "",
+	srcTunnelAddress : "",
+	tgtTunnelAddress : "",
+	srcTunnelPort : "",
+	dstTunnelPort : "",
+	qCI : "",
+	dSCP : "",
+	tC : "",
+	srcAddress_Id : "",
+	dstAddress_Id : ""
+})
+
+db.srcAddress.insert({
+	srcAddress_Id : "",
+	srcAddress : "",
+	srcPort : "",
+	trafficFilter_Id : ""
+})
+
+db.dstAddress.insert({
+	dstAddress_Id : "",
+	dstAddress : "",
+	dstPort : "",
+	trafficFilter_Id : ""
+})
+
+db.dstInterface.insert({
+	dstInterface_Id : "",
+	interfaceType : "",
+	dstIpAddress : "",
+	dstMacAddress : "",
+	tunnelInfo_Id : "",
+	tRule_Id : ""
+})
+
+db.tunnelInfo.insert({
+	tunnelInfo_Id : "",
+	tunnelType : "",
+	tunnelDstAddress : "",
+	tunnelSrcAddress : "",
+	dstInterface_Id : ""
+})
+
+db.serviceInfo.insert({
+	serviceInfo_Id : "",
+	serInstanceId : "",
+	serName : "",
+	serCategory_Id : "",
+	version : "",
+	state : "",
+	transportId : "",
+	transportInfo_Id : "",
+	serializer : "",
+	appIns_Id : ""
+})
+
+db.currentTime.insert({
+	currentTime_Id : "",
+	NanoSecond : "",
+	timeSourceStatus : "",
+	appIns_Id : ""
+})
+
+db.timingCaps.insert({
+	TimingCaps_Id : "",
+	timeStamp_Id : "",
+	ntpServers_Id : "",
+	ptpMasters_Id : "",
+	appIns_Id : ""
+})
+
+db.timeStamp.insert({
+	timeStamp_Id : "",
+	seconds : "",
+	nanoSeconds : "",
+	timingCaps_Id : ""
+})
+
+db.ntpServers.insert({
+	ntpServers_Id : "",
+	ntpServerAddrType : "",
+	ntpServerAddr : "",
+	minPollingInterval : "",
+	maxPollingInterval : "",
+	localPriority : "",
+	authenticationOption : "",
+	authenticationKeyNum : "",
+	authenticationOption : "",
+	timingCaps_Id : ""
+})
+
+db.ptpMasters.insert({
+	ptpMasters_Id : "",
+	ptpMasterIpAddress : "",
+	ptpMasterLocalPriority : "",
+	delayReqMaxRate : "",
+	timingCaps_Id : ""
+})
+
+=======================================
+
+db.zoneList.insert({
+	zoneList_Id : "",
+	resourceURL : "",
+	zone_Id : ""
+})
+
+db.zoneInfo.insert({
+	zoneInfo_Id : "",
+	zoneId : "",
+	numberOfAccessPoints : "",
+	numberOfUnserviceableAccessPoints : "",
+	numberOfUsers : "",
+	resourceURL : "",
+	zoneList_Id : ""
+})
+
+db.accessPointList.insert({
+	AccessPoint_Id : "",
+	zoneId : "",
+	resourceURL : "",
+	accessPointDetailsId : ""
+})
+
+db.accessPoint.insert({
+	accessPointId : "",
+	connectionType : "",
+	operationStatus : "",
+	numberOfUsers : "",
+	interestRealm : "",
+	resourceURL : "",
+	AccessPoint_Id : "",
+	locationInfo_Id : ""
+})
+
+db.locationInfo.insert({
+	locationInfo_Id : "",
+	latitude : "",
+	longitude : "",
+	altitude : "",
+	accuracy : "",
+	accessPointDetailsId : "",
+	user_Id : ""
+})
+
+db.userList.insert({
+	userList_Id : "",
+	resourceURL : "",
+	address : "",
+	user_Id : ""
+})
+
+db.userInfo.insert({
+	user_Id : "",
+	address : "",
+	accessPointId : "",
+	zoneId : "",
+	resourceURL : "",
+	contextLocationInfo : "",
+	userList_Id : "",
+	locationInfo_Id : ""
+})
+
+db.notificationSubscriptionList.insert({
+	notificationSubscriptionList_Id : "",
+	resourceURL : "",
+	userTrackingSubscription_Id : "",
+	zonalTrafficSubscription_Id : ""
+})
+
+db.zonalTrafficSubscription.insert({
+	zonalTrafficSubscription_Id : "",
+	clientCorrelator : "",
+	resourceURL : "",
+	interestRealm : "",
+	userEventCriteria : "",
+	duration : "",
+	notificationSubscriptionList_Id : ""
+})
+
+db.callBackReference.insert({
+	callbackReference_Id : "",
+	notifyURL : "",
+	clientCorrelator : "",
+	zonalTrafficSubscription_Id : "",
+	zoneStatusSubscription_Id : ""
+})
+
+db.userTrackingSubscription.insert({
+	userTrackingSubscription_Id : "",
+	clientCorrelator : "",
+	resourceURL : "",
+	address : "",
+	userEventCriteria : "",
+	notificationSubscriptionList_Id : "",
+	callbackReference_Id : ""
+})
+
+db.zoneStatusSubscription.insert({
+	zoneStatusSubscription_Id : "",
+	clientCorrelator : "",
+	resourceURL : "",
+	zoneId : "",
+	numberOfUsersZoneThreshold : "",
+	operationStatus : "",
+	callbackReference_Id : ""
+})
+
+===========================================
+
+db.bwInfo.insert({
+	bwInfo_Id : "",
+	ReqstType : "",
+	fixedBWPriority : "",
+	fixedAllocation : "",
+	allocationDirection : "",
+	timeStamp_Id : "",
+	session_Id : "",
+	appIns_Id : ""
+})
+
+db.sessionFilter.insert({
+	Session_ID : "",
+	sourceIP : "",
+	sourcePort : "",
+	destAddress : "",
+	destPort : "",
+	protocol : "",
+	appIns_Id : ""
+})
+
+===========================================
+
+db.applicationList.insert({
+	applicationList_Id : "",
+	associateUeAppId : "",
+	callbackReference : "",
+	contextId : "",
+	appInfo_Id : "",
+	vendorSpecificExt_Id : ""
+})
+
+db.appInfo.insert({
+	appInfo_Id : "",
+	appName : "",
+	appProvider : "",
+	appSoftVersion : "",
+	appDescription : "",
+	referenceURL : "",
+	appPackageSource : "",
+	contextId : "",
+	applicationList_Id : "",
+	appCharcs_Id : ""
+})
+
+db.appCharcs.insert({
+	appCharcs_Id : "",
+	memory : "",
+	storage : "",
+	latency : "",
+	bandwidth : "",
+	serviceCont : "",
+	appInfo_Id : "" 
+})
+
+db.vendorSpecificExt.insert({
+	vendorSpecificExt_Id : "",
+	vendorId : "",
+	contextId : "",
+	applicationList_Id : ""
+})
+
+===========================================
+
+db.ueIdentityTagInfo.insert({
+	ueIdentityTagInfo_Id : "",
+	ueIdentityTags_Id : "",
+	app_ID : ""
+})
+
+db.ueIdentityTags.insert({
+	ueIdentityTags_Id : "",
+	ueIdentityTag : "",
+	state : "",
+	ueIdentityTagInfo_Id : ""
+})
+
+===========================================
+
+db.rabInfo.insert({
+	rabInfo_Id : "",
+	appInID : "",
+	requestId : "",
+	timeStamp_Id : "",
+	cellUserInfo_Id : "",
+	ueInfo_Id : "",
+	erabQosParameters_Id : ""
+})
+
+db.cellUserInfo.insert({
+	cellUserInfo_Id : "",
+	cellID : "",
+	ecgi_Id : ""
+})
+
+db.ueInfo.insert({
+	ueInfo_Id : "",
+	associate_Id : "",
+	type : "",
+	value : "",
+	erabInfo_Id : ""
+})
+
+db.erabQosParameter.insert({
+	erabQosParameter_Id : "",
+	qci : "",
+	qosInfo_Id : ""
+})
+
+db.qosInformation.insert({
+	qosInfo_Id : "",
+	erabMbrDl : "",
+	erabMbrUl : "",
+	erabGbrDl : "",
+	erabGbrUl : ""
+})
+	
+db.erabInfo.insert({
+	erabInfo_Id : "",
+	erabId : ""
+})
+	
+db.ecgi.insert({
+	egci_Id : "",
+	plm_Id : ""
+})
+	
+db.plm.insert({
+	plm_Id : "",
+	mcc : "",
+	mnc : ""
+})
+	
+db.plmnInfo.insert({
+	plmnInfo_Id : "",
+	cellId : "",
+	appInId : "",
+	ecgi_Id : "",
+	timeStamp_Id : ""
+})
+
+db.s1BearerInfo.insert({
+	s1BearerInfo_Id : "",
+	timeStamp_Id : "",
+	s1UeInfo_Id : ""
+})
+
+db.s1UeInfo.insert({
+	s1UeInfo_Id : "",
+	cellId : "",
+	tempUe_Id : "",
+	associate_Id : "",
+	ecgi_Id : "",
+	s1BearerInfoDetailed_Id : ""
+})
+
+db.tempUe.insert({
+	tempUe_Id : "",
+	mme : "",
+	mtmsi : ""
+})
+
+db.associate.insert({
+	associate_Id : "",
+	type : "",
+	value : ""
+})
+
+db.s1BearerInfoDetailed.insert({
+	s1BearerInfoDetailed_Id : "",
+	erabId : "",
+	s1EnbInfo_Id : "",
+	sGwInfo_Id : ""
+})
+
+db.s1EnbInfo.insert({
+	s1EnbInfo_Id : "",
+	ipAddress : "",
+	tunnelId : ""
+})
+
+db.sGwInfo.insert({
+	sGwInfo_Id : "",
+	ipAddress : "",
+	tunnelId : ""
+})
+
+db.subcriptionLinkList.insert({
+	subcriptionLinkList_Id : "",
+	links_Id : ""
+})
+
+db.subcription.insert({
+	sub_Id : "",
+	href : "",
+	subcriptionType : ""
+})
+
+db.cellChangesubcription.insert({
+	cellChangesubcription_Id : "",
+	callbackReference : "",
+	links_Id : "",
+	filterCriteria_Id : "",
+	expiryDeadline_Id : ""
+})
+
+db.filterCriteria.insert({
+	filterCriteria_Id : "",
+	appIns_Id : "",
+	cellId : "",
+	hoStatus : "",
+	trigger : "",
+	associate_Id : "",
+	plmn_Id : ""
+})
+
+db.expiryDeadline.insert({
+	expiryDeadline_Id : "",
+	seconds : "",
+	nanoSeconds : ""
+})
+
+db.s1BearerSubcription.insert({
+	s1BearerSubcription_Id : "",
+	links_Id : "",
+	eventType : "",
+	s1BearerSubcriptionCriteria_Id : "",
+	expiryDeadline_Id : ""
+})
+
+db.s1BearerSubcriptionCriteria.insert({
+	s1BearerSubcriptionCriteria_Id : "",
+	cellId : "",
+	erabId : "",
+	associate_Id : "",
+	plmn_Id : ""
+})
+
+db.measTaSubcription.insert({
+	measTaSubcription_Id : "",
+	callbackReference : "",
+	links_Id : "",
+	filterCriteria_Id : "",
+	expiryDeadline_Id : ""
+})
+
+db.CaReConfSubscription.insert({
+	caRefConfSubs_Id : "",
+	callbackReference : "",
+	links_Id : "",
+	filterCriteriaAssoc_Id : "",
+	expiryDeadline_Id : ""
+})
+
+db.filterCriteriaAssoc.insert({
+	filterCriteriaAssoc_Id : "",
+	appIns_Id : "",
+	cellId : "",
+	associate_Id : "",
+	plmn_Id : ""
+})
+
+db.rabRelSubscription.insert({
+	rabRelSubscription_Id : "",
+	links_Id : "",
+	filterCriteriaAssocQci_Id : "",
+	expiryDeadline_Id : ""
+})
+
+db.filterCriteriaAssocQci.insert({
+	filterCriteriaAssocQci_Id : "",
+	appIns_Id : "",
+	cellId : "",
+	qci : "",
+	associate_Id : "",
+	plmn_Id : ""
+})

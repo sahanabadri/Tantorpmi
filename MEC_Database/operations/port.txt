@@ -1,0 +1,27 @@
+db.ports.insert({
+	port_Id : "port_1",
+	srcPort : "80",
+	dstPort : "82",
+	session_Id : "session_1"
+})
+
+db.ports.insert({
+	port_Id : "port_2",
+	srcPort : "81",
+	dstPort : "83",
+	session_Id : "session_1"
+})
+
+db.ports.insert({
+	port_Id : "port_3",
+	srcPort : "90",
+	dstPort : "92",
+	session_Id : "session_2"
+})
+
+db.ports.insert({
+	port_Id : "port_4",
+	srcPort : "91",
+	dstPort : "93",
+	session_Id : "session_2"
+})

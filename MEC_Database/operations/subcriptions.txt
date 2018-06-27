@@ -1,0 +1,23 @@
+db.subcriptions.insert({
+	subscriptions_Id : "subcriptions_1",
+	subscriptionType : "SerAvailabilityNotificationSubscription",
+	callbackReference : "string",
+	href : "string",
+	rel : "string",
+	dRule_Id : "dRule_1",
+	appIns_Id : "",
+	links_Id : "links_1",
+	filCategory_Id : "filCategory_1"
+})
+
+db.subcriptions.insert({
+	subscriptions_Id : "subcriptions_2",
+	subscriptionType : "AppTerminationNotificationSubscription",
+	callbackReference : "exampleString",
+	href : "exampleString",
+	rel : "exampleString",
+	dRule_Id : "dRule_2",
+	appIns_Id : "",
+	links_Id : "links_2",
+	filCategory_Id : "filCategory_2"
+})

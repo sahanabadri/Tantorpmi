@@ -1,0 +1,11 @@
+db.uris.insert({
+	uris_Id : "uris_1",
+	uris : "/meMp1/service/EntryPoint",
+	endpoint_Id : ""
+})
+
+db.uris.insert({
+	uris_Id : "uris_2",
+	uris : "/meMp1/service/EntryPoint",
+	endpoint_Id : ""
+})

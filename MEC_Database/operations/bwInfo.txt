@@ -1,0 +1,35 @@
+db.bwInfo.insert({
+	bwInfo_Id : "bwInfo_1",
+	reqstType : "0",
+	fixedBWPriority : "1",
+	fixedAllocation : "100",
+	allocationDirection : "00",
+	allocation_Id: "",
+	timeStamp_Id : "timeStamp_1",
+	session_Id : "session_1",
+	appIns_Id : "appIns_1"
+})
+
+db.bwInfo.insert({
+	bwInfo_Id : "bwInfo_2",
+	reqstType : "1",
+	fixedBWPriority : "1",
+	fixedAllocation : "75",
+	allocationDirection : "01",
+	allocation_Id: "",
+	timeStamp_Id : "timeStamp_2",
+	session_Id : "session_2",
+	appIns_Id : "appIns_2"
+})
+
+db.bwInfo.insert({
+	bwInfo_Id : "bwInfo_3",
+	reqstType : "0",
+	fixedBWPriority : "1",
+	fixedAllocation : "333",
+	allocationDirection : "10",
+	allocation_Id: "",
+	timeStamp_Id : "timeStamp_2",
+	session_Id : "session_2",
+	appIns_Id : ""
+})

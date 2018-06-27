@@ -1,0 +1,14 @@
+
+Measurement => #603CBA => RGB(96, 60, 186)
+
+Patterning and Algebra => #FFC40D => RGB(255, 196, 13)
+
+Geometry and Spatial Sense => #00A300 => RGB(0, 163, 0)
+
+Number Sense and Numeration => #1E7145 => RGB(30, 113, 69)
+
+Data Management and Probability => #9F00A7 => RGB(159, 0, 167)
+
+
+
+

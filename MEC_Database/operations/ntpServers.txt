@@ -1,0 +1,25 @@
+db.ntpServers.insert({
+	ntpServers_Id : "ntpServers_1",
+	ntpServerAddrType : "IP_ADDRESS",
+	ntpServerAddr : "192.0.2.0",
+	minPollingInterval : "3",
+	maxPollingInterval : "17",
+	localPriority : "1",
+	authenticationOption : "NONE",
+	authenticationKeyNum : "1",
+	authenticationOption : "NONE",
+	timingCaps_Id : "timingCaps_1"
+})
+
+db.ntpServers.insert({
+	ntpServers_Id : "ntpServers_2",
+	ntpServerAddrType : "IP_ADDRESS",
+	ntpServerAddr : "192.2.3.4",
+	minPollingInterval : "5",
+	maxPollingInterval : "28",
+	localPriority : "1",
+	authenticationOption : "NONE",
+	authenticationKeyNum : "1",
+	authenticationOption : "NONE",
+	timingCaps_Id : "timingCaps_2"
+})

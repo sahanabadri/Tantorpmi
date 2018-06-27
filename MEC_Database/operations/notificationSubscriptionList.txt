@@ -1,0 +1,13 @@
+db.notificationSubscriptionList.insert({
+	notificationSubscriptionList_Id : "",
+	resourceURL : "http://example.com/exampleAPI/location/v1/zonalTraffic",
+	userTrackingSubscription_Id : "userTrackingSubscription_1",
+	zonalTrafficSubscription_Id : "zonalTrafficSubscription_1"
+})
+
+db.notificationSubscriptionList.insert({
+	notificationSubscriptionList_Id : "",
+	resourceURL : "http://example.com/exampleAPI/location/v1/zonalTraffic",
+	userTrackingSubscription_Id : "userTrackingSubscription_2",
+	zonalTrafficSubscription_Id : "zonalTrafficSubscription_2"
+})

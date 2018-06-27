@@ -1,0 +1,19 @@
+db.filterCriteria.insert({
+	filterCriteria_Id : "filterCriteria_1",
+	appInsId : "01",
+	cellId : "0x800000B",
+	hoStatus : "3",
+	trigger : "",
+	associate_Id : "associate_1",
+	plmn_Id : "plmn_1"
+})
+
+db.filterCriteria.insert({
+	filterCriteria_Id : "filterCriteria_2",
+	appInsId : "02",
+	cellId : "0x800000A",
+	hoStatus : "4",
+	trigger : "",
+	associate_Id : "associate_2",
+	plmn_Id : "plmn_2"
+})

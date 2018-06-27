@@ -1,0 +1,63 @@
+1. login
+2. home page
+3. classes tab full view
+4. top filters
+5. main graph
+6. tooltip
+7. strands graph
+8. individual trand graph with tooltip 
+9. classes 2nd page graph
+10. classes 2nd tooltip
+11. Student assessment details 
+12. student result right or wrong
+13. question preview
+14. curriculum 1st page
+15. top filters
+16. curriculum main graph
+17. tooltip
+18. curriculum chart
+19. curriculum 2nd page
+20. tooltip for 2nd page
+21. 2nd page chart
+22. curriculum 3rd page
+23. Assessment questions results
+24. question preview
+25. Student details tab
+26. Historical assessment score graph
+27. Strand scores and notes
+28. No question answered
+29. GE - P&A
+30. GE - G&S
+31. GE - N&N
+32. GE - D&P
+33. Camera icon Preview
+34. Question preview
+35. Edit student
+36. Scorecard tab
+37. Scorecard Tab - Geometry & Spatial Sense and Patterning & Number Sense
+38. Scorecard Tab – Number Sense & Numeration and Data Management & Probability
+39. Scorecard - Curriculum
+40. Groups Tab
+41. Grouping Constraints
+42. Grouping Results
+43. Groups Tab Buttons
+44. Naming a Group
+45. Sample Group Table
+46. Sample GroupUser Table
+47. Create New Group Screen
+48. Create New Group Screen
+49. Delete Group Screen
+50. Question Rating Tab
+51. Click on Question ID
+52. Whiteboard Selection Screen
+53. Whiteboard Screen
+54. Exit Tickets Tab
+55. Details Selections for the Exit Ticket
+56. Filter Selections for the Exit Ticket
+57. Question Selection for the Exit Ticket
+58. Selected Question
+59. Exit Ticket Review
+60. Feedback Tab
+61. Selection of Feedback Details Fieldset
+62. Feedback Text Area
+

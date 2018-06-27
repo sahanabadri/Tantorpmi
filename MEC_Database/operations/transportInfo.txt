@@ -1,0 +1,23 @@
+db.transportInfo.insert({
+	transportInfo_Id : "transportInfo_1",
+	id : "TransId12345",
+	name : "REST",
+	description : "REST API",
+	type : "JSON",
+	protocol : "HTTP",
+	version : "2",
+	implSpecificInfo : "",
+	endPoint_Id : ""
+})
+
+db.transportInfo.insert({
+	transportInfo_Id : "transportInfo_2",
+	id : "TransId54321",
+	name : "REST",
+	description : "REST API",
+	type : "JSON",
+	protocol : "HTTP",
+	version : "2",
+	implSpecificInfo : "",
+	endPoint_Id : ""
+})

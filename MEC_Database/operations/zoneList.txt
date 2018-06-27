@@ -1,0 +1,11 @@
+db.zoneList.insert({
+	zoneList_Id : "zoneList_1",
+	resourceURL : "http://example.com/exampleAPI/location/v1/zones",
+	zoneInfo_Id : "zoneInfo_1"
+})
+
+db.zoneList.insert({
+	zoneList_Id : "zoneList_",
+	resourceURL : "http://example.com/exampleAPI/location/v2/zones",
+	zoneInfo_Id : "zoneInfo_2"
+})
