@@ -1,0 +1,85 @@
+
+db.bwInfo.remove({"bwInfo_Id":"bwInfo_4"})
+db.sessionFilter.remove({"session_Id":"session_3"})
+db.ports.remove({"session_Id":"session_3"})
+db.timeStamp.remove({"timeStamp_Id":"timeStamp_3"})
+
+/*
+ * body for POST method of /bw_allocations/
+{
+  "timeStamp": {
+    "seconds": 0,
+    "nanoSeconds": 0
+  },
+  "appInsId": "string",
+  "requestType": "SESSION_SPECIFIC_BW_ALLOCATION",
+  "sessionFilter": [
+    {
+      "sourceIp": "192.168.110.11",
+      "sourcePort": [
+        "8080"
+      ],
+      "dstAddress": "192.168.111.10",
+      "dstPort": [
+        "8082"
+      ],
+      "protocol": "HTTP"
+    }
+  ],
+  "fixedBWPriority": "not defined in the present document",
+  "fixedAllocation": "string",
+  "allocationDirection": "00 = Downlink (towards the UE)"
+}
+*/
+
+/*
+ *body for PUT method of /bw_allocations/{{allocationsId}}
+{
+  "timeStamp": {
+    "seconds": 123456789,
+    "nanoSeconds": 123456789000000000
+  },
+  "appInsId": "appIns_3",
+  "requestType": "APPLICATION_SPECIFIC_BW_ALLOCATION",
+  "sessionFilter": [
+    {
+      "sourceIp": "192.168.10.11",
+      "sourcePort": [
+        "8081"
+      ],
+      "dstAddress": "192.168.11.10",
+      "dstPort": [
+        "8083"
+      ],
+      "protocol": "HTTPS"
+    }
+  ],
+  "fixedBWPriority": "not defined in the present document",
+  "fixedAllocation": "string",
+  "allocationDirection": "00 = Downlink (towards the UE)"
+}
+*/
+
+/*
+ * body for PATCH method of /bw_allocations/{{allocationsId}}
+{
+  "appInsId": "string",
+  "requestType": "APPLICATION_SPECIFIC_BW_ALLOCATION",
+  "sessionFilter": [
+    {
+      "sourceIp": "string",
+      "sourcePort": [
+        "string"
+      ],
+      "dstAddress": "string",
+      "dstPort": [
+        "string"
+      ],
+      "protocol": "string"
+    }
+  ],
+  "fixedBWPriority": "not defined in the present document",
+  "fixedAllocation": "string",
+  "allocationDirection": "00 = Downlink (towards the UE)"
+}
+*/
