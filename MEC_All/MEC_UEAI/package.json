@@ -1,7 +1,7 @@
 {
-  "name": "bwm-api",
+  "name": "ue-application-interface-api",
   "version": "1.1.1",
-  "description": "The ETSI MEC ISG MEC015 Bandwidth Management API described using OpenAPI",
+  "description": "The ETSI MEC ISG MEC016 UE Application Interface API described using OpenAPI",
   "main": "index.js",
   "scripts": {
     "prestart": "npm install",
@@ -13,12 +13,8 @@
   "license": "Unlicense",
   "private": true,
   "dependencies": {
-    "body-parser": "^1.18.3",
     "connect": "^3.2.0",
-    "express": "^4.16.3",
     "js-yaml": "^3.3.0",
-    "mongodb": "^2.2.33",
-    "nodemon": "^1.17.5",
     "swagger-tools": "0.10.1"
   }
 }

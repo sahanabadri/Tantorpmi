@@ -1,0 +1,61 @@
+db.applicationList.remove({"applicationList_Id":"applicationList_3"})
+db.appInfo.remove({"appInfo_Id":"appInfo_3"})
+db.appCharcs.remove({"appCharcs_Id":"appCharcs_"})
+db.vendorSpecificExt.remove({"vendorSpecificExt_Id":"vendorSpecificExt_"})
+
+/*
+ * body for POST method of /appContext/
+{
+  {
+  "contextId": "contextId3",
+  "associateUeAppId": "associateUeApp03",
+  "callbackReference": "string",
+  "appInfo": {
+    "appName": "Instagram",
+    "appProvider": "Facebook",
+    "appSoftVersion": "v10.11",
+    "appDescription": "Like Facebook",
+    "referenceURL": "string",
+    "appPackageSource": "AppStore"
+  }
+}
+*/
+
+
+/*
+ *body for PUT method of /appContext/{{contextId}}
+{
+  "contextId": "string",
+  "associateUeAppId": "string",
+  "callbackReference": "string",
+  "appInfo": {
+    "appName": "string",
+    "appProvider": "string",
+    "appSoftVersion": "string",
+    "appDescription": "string",
+    "referenceURL": "string",
+    "appPackageSource": "string"
+  }
+}
+*/
+
+
+/*
+if (myobj === undefined) {
+  console.log("No Body is passed")
+  errorbody = {
+   "Problem Details" : {
+      "type": "string",
+      "title": "string",
+      "status": 0,
+      "detail": "string",
+      "instance": "string"
+    }
+  }
+  resolve(errorbody)
+}
+
+else {
+  console.log("Body passed!")
+}
+*/
